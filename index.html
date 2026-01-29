@@ -1,264 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VENU NEERAJ | Prompt Engineer</title>
+  <meta charset="UTF-8">
+  <title>Aleti Venu Neeraj | Senior Oracle PL/SQL Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ===== BASIC STYLES ===== -->
   <style>
-    :root {
-      --primary: #1e3a8a;      /* dark blue */
-      --secondary: #2563eb;    /* blue accent */
-      --text-dark: #1f2937;
-      --text-light: #6b7280;
-      --bg-light: #ffffff;
-      --bg-section: #f9fafb;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
     body {
-      background-color: var(--bg-light);
-      color: var(--text-dark);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
       line-height: 1.6;
+      margin: 0;
+      padding: 20px;
     }
 
+    /* ===== COMMON SECTION STYLE (BORDERS) ===== */
     section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
+      background-color: #ffffff;
+      border: 2px solid #1e3a8a;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    h1, h2, h3, h4 {
+      color: #1e3a8a;
+      margin-bottom: 10px;
+      font-weight: bold;
     }
 
     h2 {
-      margin-bottom: 20px;
-      color: var(--primary);
+      border-bottom: 2px solid #1e3a8a;
+      padding-bottom: 5px;
     }
 
-    p {
-      color: var(--text-light);
+    ul {
+      margin-left: 20px;
     }
 
-    /* ===== HERO SECTION ===== */
+    li {
+      margin-bottom: 6px;
+    }
+
+    /* ===== HERO ===== */
     .hero {
       text-align: center;
-      padding: 80px 20px;
     }
 
-    .hero h1 {
-      font-size: 2.8rem;
-      color: var(--primary);
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1e3a8a;
+      margin-bottom: 15px;
     }
 
-    .hero h3 {
-      margin-top: 10px;
-      font-weight: normal;
-      color: var(--secondary);
+    .title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #111827;
     }
 
-    .hero p {
-      margin-top: 15px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .buttons {
-      margin-top: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 5px;
-      border-radius: 5px;
-      text-decoration: none;
-      color: #fff;
-      background-color: var(--secondary);
-      font-size: 0.9rem;
-    }
-
-    .btn.outline {
-      background-color: transparent;
-      border: 1px solid var(--secondary);
-      color: var(--secondary);
-    }
-
-    /* ===== SKILLS ===== */
+    /* ===== SKILLS GRID ===== */
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 20px;
     }
 
     .skill-box {
-      background: var(--bg-section);
-      padding: 20px;
+      border: 1px solid #d1d5db;
       border-radius: 8px;
+      padding: 15px;
+      background-color: #f9fafb;
     }
 
-    /* ===== PROJECTS ===== */
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
+    /* ===== PROJECT CARD ===== */
     .project-card {
-      background: var(--bg-section);
-      padding: 20px;
+      border: 1px solid #d1d5db;
       border-radius: 8px;
-    }
-
-    /* ===== CONTACT ===== */
-    .contact-info a {
-      display: block;
-      margin-bottom: 8px;
-      color: var(--secondary);
-      text-decoration: none;
+      padding: 15px;
+      background-color: #f9fafb;
+      margin-bottom: 20px;
     }
 
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 0.85rem;
-      color: var(--text-light);
+      font-size: 0.9rem;
+      color: #6b7280;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- ===== HERO / HEADER ===== -->
-  <section class="hero">
-    <h1>VENU NEERAJ</h1>
-    <h3>Aspiring Prompt Engineer & AI Enthusiast</h3>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <img src="profile.jpg" alt="Aleti Venu Neeraj Photo" class="profile-pic">
+  <h1>ALETI VENU NEERAJ</h1>
+  <p class="title">Senior Oracle PL/SQL Developer | Production Support | Cloud Migration</p>
+  <p>
+    10+ years of experience in Oracle database development, production support,
+    enterprise application maintenance, and cloud migration in Linux environments.
+  </p>
+</section>
+
+<!-- ================= PROFESSIONAL SUMMARY ================= -->
+<section>
+  <h2>Professional Summary</h2>
+  <ul>
+    <li>5+ years of expertise as an Oracle PL/SQL Developer in application development and maintenance.</li>
+    <li>Extensive experience in tables, views, constraints, DB links, queries, procedures, functions, packages.</li>
+    <li>Strong hands-on experience in ETL processing using SQL Loader.</li>
+    <li>Expertise in Production Support, issue resolution, and daily & weekend job monitoring using AutoSys.</li>
+    <li>Experience with OpenShift CaaS deployment and knowledge article preparation.</li>
+    <li>Hands-on experience in Linux shell scripting and Core Java training.</li>
+    <li>Experience in database & Linux application migrations.</li>
+    <li>Strong analytical, problem-solving, communication, and leadership skills.</li>
+  </ul>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-box">
+      <h4>Databases & Programming</h4>
+      <ul>
+        <li>Oracle 12c</li>
+        <li>PL/SQL (Procedures, Functions, Packages, Triggers)</li>
+        <li>SQL, SQL Loader, ETL</li>
+        <li>Core Java (Training)</li>
+        <li>Python (Ongoing)</li>
+      </ul>
+    </div>
+
+    <div class="skill-box">
+      <h4>Operating Systems & Scripting</h4>
+      <ul>
+        <li>Linux SLES 12</li>
+        <li>Windows 10</li>
+        <li>Linux Shell Scripting</li>
+      </ul>
+    </div>
+
+    <div class="skill-box">
+      <h4>Tools & Technologies</h4>
+      <ul>
+        <li>SQL Developer, TOAD</li>
+        <li>Putty</li>
+        <li>AutoSys Scheduler</li>
+        <li>GitHub, Accurev</li>
+        <li>OpenShift (CaaS)</li>
+        <li>Rally (Agile)</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= EMPLOYMENT ================= -->
+<section>
+  <h2>Employment Profile</h2>
+  <ul>
+    <li><strong>Software Engineer – TCS, Bangalore</strong> (Dec 2021 – Present)</li>
+    <li><strong>Software Engineer – STG InfoTech Pvt Ltd, Chennai</strong> (Sep 2017 – May 2020)</li>
+    <li><strong>Software Engineer – Mgainz Communication Services Pvt Ltd</strong> (Apr 2014 – Aug 2017)</li>
+  </ul>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section>
+  <h2>Academic Qualifications</h2>
+  <p><strong>B.Tech</strong> – JNTU Hyderabad (2013)</p>
+</section>
+
+<!-- ================= ACCOMPLISHMENTS ================= -->
+<section>
+  <h2>Accomplishments</h2>
+  <ul>
+    <li>Agile Basecamp Level 1 Completion Certificate</li>
+    <li>Multiple appreciation awards from reporting managers</li>
+  </ul>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section>
+  <h2>Project Experience</h2>
+
+  <div class="project-card">
+    <h4>Plan-for-Every-Part – Copy and Steal</h4>
+    <p><strong>Client:</strong> FORD | <strong>Team Size:</strong> 8</p>
     <p>
-      Passionate about building reliable AI solutions through structured
-      prompting, logical thinking, and continuous learning.
+      Automated part attribute data copying across PFEP levels, eliminating
+      manual effort and improving efficiency.
     </p>
-    <div class="buttons">
-      <a href="#" class="btn">Download Resume</a>
-      <a href="#contact" class="btn outline">Contact Me</a>
-    </div>
-  </section>
+    <p><strong>Environment:</strong> Oracle 12c, PL/SQL, Linux, SQL Loader, Java, GitHub</p>
+  </div>
 
-  <!-- ===== ABOUT ME ===== -->
-  <section>
-    <h2>About Me</h2>
+  <div class="project-card">
+    <h4>Plan-for-Every-Part – Batch Build</h4>
+    <p><strong>Client:</strong> FORD | <strong>Team Size:</strong> 8</p>
     <p>
-      I am an aspiring prompt engineer with a strong interest in artificial
-      intelligence and problem-solving. I enjoy breaking down complex problems
-      into structured instructions that produce accurate and reliable AI
-      outputs. I am continuously learning modern AI tools and techniques to
-      grow professionally and contribute effectively to innovative teams.
+      Implemented backend changes for batch build flag synchronization across
+      PFEP, SMART, and CMMS applications.
     </p>
-  </section>
+    <p><strong>Environment:</strong> Oracle 12c, PL/SQL, Linux, AutoSys</p>
+  </div>
 
-  <!-- ===== SKILLS ===== -->
-  <section>
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-box">
-        <h4>Technical Skills</h4>
-        <ul>
-          <li>HTML, CSS, Basic JavaScript</li>
-          <li>Basic Python</li>
-          <li>Problem Solving</li>
-        </ul>
-      </div>
-
-      <div class="skill-box">
-        <h4>Prompt Engineering Skills</h4>
-        <ul>
-          <li>Prompt Structuring</li>
-          <li>Few-shot & Zero-shot Prompting</li>
-          <li>Output Formatting (JSON, Tables)</li>
-          <li>Prompt Optimization</li>
-        </ul>
-      </div>
-
-      <div class="skill-box">
-        <h4>Tools & Technologies</h4>
-        <ul>
-          <li>ChatGPT</li>
-          <li>OpenAI API (Basic)</li>
-          <li>GitHub</li>
-          <li>Google Docs & Sheets</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== RESUME ===== -->
-  <section>
-    <h2>Resume</h2>
-
-    <h4>Education</h4>
-    <p>Degree / Course Name – University / College (Year)</p>
-
-    <h4>Certifications</h4>
-    <p>Prompt Engineering / AI-related courses (if any)</p>
-
-    <h4>Experience / Training</h4>
+  <div class="project-card">
+    <h4>Data Center Migration to Cloud</h4>
     <p>
-      Academic projects, self-learning initiatives, or internships focused on
-      AI tools and structured problem solving.
+      Supported Oracle 12c migration to ExaCC and Linux application migration.
+      Participated in OpenShift CaaS deployment and documentation.
     </p>
-  </section>
+    <p><strong>Environment:</strong> Oracle 12c, Linux, OpenShift</p>
+  </div>
 
-  <!-- ===== PROJECTS ===== -->
-  <section>
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h4>AI Resume Analyzer</h4>
-        <p>
-          Designed structured prompts to analyze resumes and provide feedback.
-        </p>
-        <p><strong>Skills:</strong> Prompt Engineering, AI Evaluation</p>
-        <p><strong>Outcome:</strong> Improved resume clarity and relevance.</p>
-      </div>
+</section>
 
-      <div class="project-card">
-        <h4>Interview Q&A Generator</h4>
-        <p>
-          Built prompts to generate role-specific interview questions and answers.
-        </p>
-        <p><strong>Skills:</strong> Few-shot Prompting</p>
-        <p><strong>Outcome:</strong> Faster interview preparation.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== INTERVIEW HIGHLIGHTS ===== -->
-  <section>
-    <h2>Interview Highlights</h2>
-    <ul>
-      <li>I solve problems by converting vague requirements into clear AI instructions.</li>
-      <li>Strong analytical thinking and continuous learning mindset.</li>
-      <li>Motivated, adaptable, and focused on delivering reliable results.</li>
-    </ul>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-info">
-      <a href="mailto:your.email@example.com">your.email@example.com</a>
-      <a href="#">LinkedIn Profile</a>
-      <a href="#">GitHub Profile</a>
-    </div>
-  </section>
-
-  <footer>
-    © 2026 Venu Neeraj. All rights reserved.
-  </footer>
+<footer>
+  © 2026 Aleti Venu Neeraj | Senior Oracle PL/SQL Developer
+</footer>
 
 </body>
 </html>
