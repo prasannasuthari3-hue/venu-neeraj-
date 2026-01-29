@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VENU NEERAJ | Prompt Engineer</title>
+
+  <!-- ===== BASIC STYLES ===== -->
+  <style>
+    :root {
+      --primary: #1e3a8a;      /* dark blue */
+      --secondary: #2563eb;    /* blue accent */
+      --text-dark: #1f2937;
+      --text-light: #6b7280;
+      --bg-light: #ffffff;
+      --bg-section: #f9fafb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    p {
+      color: var(--text-light);
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      color: var(--primary);
+    }
+
+    .hero h3 {
+      margin-top: 10px;
+      font-weight: normal;
+      color: var(--secondary);
+    }
+
+    .hero p {
+      margin-top: 15px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #fff;
+      background-color: var(--secondary);
+      font-size: 0.9rem;
+    }
+
+    .btn.outline {
+      background-color: transparent;
+      border: 1px solid var(--secondary);
+      color: var(--secondary);
+    }
+
+    /* ===== SKILLS ===== */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-box {
+      background: var(--bg-section);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    /* ===== PROJECTS ===== */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: var(--bg-section);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact-info a {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HERO / HEADER ===== -->
+  <section class="hero">
+    <h1>VENU NEERAJ</h1>
+    <h3>Aspiring Prompt Engineer & AI Enthusiast</h3>
+    <p>
+      Passionate about building reliable AI solutions through structured
+      prompting, logical thinking, and continuous learning.
+    </p>
+    <div class="buttons">
+      <a href="#" class="btn">Download Resume</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME ===== -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am an aspiring prompt engineer with a strong interest in artificial
+      intelligence and problem-solving. I enjoy breaking down complex problems
+      into structured instructions that produce accurate and reliable AI
+      outputs. I am continuously learning modern AI tools and techniques to
+      grow professionally and contribute effectively to innovative teams.
+    </p>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <h4>Technical Skills</h4>
+        <ul>
+          <li>HTML, CSS, Basic JavaScript</li>
+          <li>Basic Python</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h4>Prompt Engineering Skills</h4>
+        <ul>
+          <li>Prompt Structuring</li>
+          <li>Few-shot & Zero-shot Prompting</li>
+          <li>Output Formatting (JSON, Tables)</li>
+          <li>Prompt Optimization</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h4>Tools & Technologies</h4>
+        <ul>
+          <li>ChatGPT</li>
+          <li>OpenAI API (Basic)</li>
+          <li>GitHub</li>
+          <li>Google Docs & Sheets</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section>
+    <h2>Resume</h2>
+
+    <h4>Education</h4>
+    <p>Degree / Course Name – University / College (Year)</p>
+
+    <h4>Certifications</h4>
+    <p>Prompt Engineering / AI-related courses (if any)</p>
+
+    <h4>Experience / Training</h4>
+    <p>
+      Academic projects, self-learning initiatives, or internships focused on
+      AI tools and structured problem solving.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h4>AI Resume Analyzer</h4>
+        <p>
+          Designed structured prompts to analyze resumes and provide feedback.
+        </p>
+        <p><strong>Skills:</strong> Prompt Engineering, AI Evaluation</p>
+        <p><strong>Outcome:</strong> Improved resume clarity and relevance.</p>
+      </div>
+
+      <div class="project-card">
+        <h4>Interview Q&A Generator</h4>
+        <p>
+          Built prompts to generate role-specific interview questions and answers.
+        </p>
+        <p><strong>Skills:</strong> Few-shot Prompting</p>
+        <p><strong>Outcome:</strong> Faster interview preparation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERVIEW HIGHLIGHTS ===== -->
+  <section>
+    <h2>Interview Highlights</h2>
+    <ul>
+      <li>I solve problems by converting vague requirements into clear AI instructions.</li>
+      <li>Strong analytical thinking and continuous learning mindset.</li>
+      <li>Motivated, adaptable, and focused on delivering reliable results.</li>
+    </ul>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="#">LinkedIn Profile</a>
+      <a href="#">GitHub Profile</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Venu Neeraj. All rights reserved.
+  </footer>
+
+</body>
+</html>
